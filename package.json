@@ -1,0 +1,32 @@
+{
+  "name": "kwsite",
+  "version": "1.0.0",
+  "description": "Generate a one-page static site from content and style keywords",
+  "scripts": {
+    "gen": "tsx src/cli.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "preview": "npx --yes serve dist",
+    "test": "tsx --test \"src/**/*.test.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "culori": "^4.0.2",
+    "dotenv": "^18.0.10",
+    "openai": "^7.57.0",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/culori": "^4.0.1",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "bin": {
+    "kwsite": "build/cli.js"
+  }
+}

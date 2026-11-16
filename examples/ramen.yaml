@@ -1,0 +1,12 @@
+content:
+  subject: a small family-run ramen shop in Osaka
+  siteName: Menya Hoshi
+  columns:
+    - Menu: tonkotsu, shoyu, spicy miso, gyoza, draft beer
+    - Our Story
+    - FAQ
+    - Visit Us: open 11:00-23:00, closed Tuesdays
+style:
+  - [cyberpunk, neon, dark, bold]
+  - [minimal, japanese, paper, calm]
+  - [playful, pastel, rounded]
